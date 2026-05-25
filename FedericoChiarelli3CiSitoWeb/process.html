@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vital Processes - A.C.S.</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#080808;
+            color:#f5f1e8;
+            font-family:'Cormorant Garamond', serif;
+            overflow-x:hidden;
+        }
+
+        section{
+            position:relative;
+            min-height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+            padding:6rem 10%;
+            overflow:hidden;
+        }
+
+        .overlay{
+            position:absolute;
+            inset:0;
+            background:rgba(0,0,0,0.55);
+            z-index:1;
+        }
+
+        .page-content{
+            position:relative;
+            z-index:2;
+            max-width:900px;
+            animation:fadeIn 1.4s ease;
+        }
+
+        .page-content h2{
+            font-family:'Cinzel', serif;
+            font-size:4rem;
+            margin-bottom:1rem;
+            letter-spacing:2px;
+        }
+
+        .page-content h3{
+            font-family:'Cinzel', serif;
+            font-size:1.4rem;
+            margin-bottom:2rem;
+            opacity:0.85;
+        }
+
+        .page-content p{
+            font-size:1.35rem;
+            line-height:1.9;
+            font-weight:300;
+        }
+
+        .planet-symbol{
+            position:absolute;
+            top:20px;
+            right:50px;
+            font-size:7rem;
+            opacity:1;
+            z-index:2;
+        }
+
+        /* CALCINATION */
+
+        .calcination{
+            background:
+                url('calcination.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* CONGELATION */
+
+        .congelation{
+            background:
+                url('congelation.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* FIXATION */
+
+        .fixation{
+            background:
+                url('fixation.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* SOLUTION */
+
+        .solution{
+            background:
+                url('solution.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* FERMENTATION */
+
+        .fermentation{
+            background:
+                url('fermentation.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* DISTILLATION */
+
+        .distillation{
+            background:
+                url('distillation.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* DIGESTION */
+
+        .digestion{
+            background:
+                url('digestion.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* SUBLIMATION */
+
+        .sublimation{
+            background:
+                url('sublimation.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* SEPARATION */
+
+        .separation{
+            background:
+                url('separation.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* CERATION */
+
+        .ceration{
+            background:
+                url('ceration.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* MULTIPLICATION */
+
+        .multiplication{
+            background:
+                url('multiplication.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* PROJECTION */
+
+        .projection{
+            background:
+                url('projection.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        @keyframes fadeIn{
+            from{
+                opacity:0;
+                transform:translateY(30px);
+            }
+            to{
+                opacity:1;
+                transform:translateY(0);
+            }
+        }
+
+        @media(max-width:768px){
+
+            .page-content h2{
+                font-size:2.7rem;
+            }
+
+            .page-content p{
+                font-size:1.15rem;
+            }
+
+            .planet-symbol{
+                font-size:3.5rem;
+                right:20px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- CALCINATION -->
+
+    <section class="calcination">
+        <div class="planet-symbol">♈︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Calcination</h2>
+            <h3>Burning Away the Ego</h3>
+
+            <p>
+                Alchemists distinguished two kinds of calcination, actual and potential. Actual calcination is that brought about by actual fire, from wood, coals, or other fuel, raised to a certain temperature. Potential calcination is that brought about by potential fire, such as corrosive chemicals; for example, gold was calcined in a reverberatory furnace with mercury and salammoniac; silver with common salt and alkali salt; copper with salt and sulfur; iron with salammoniac and vinegar; tin with antimony; lead with sulfur; and mercury with nitric acid.
+There was also philosophical calcination, which was said to occur when horns, hooves, etc., were hung over boiling water, or other liquor, until they had lost their mucilage, and were easily reducible into powder.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONGELATION -->
+
+    <section class="congelation">
+        <div class="planet-symbol">♉︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Congelation</h2>
+            <h3>Solidification and Crystallization</h3>
+
+            <p>
+                In alchemical tradition, congelation refers to the symbolic process of solidifying or fixing a substance after it has been purified through dissolution. More than a physical transformation, it represents the stabilization of spirit into matter — the moment when something volatile, chaotic, or fluid becomes enduring and whole. Medieval alchemists often viewed congelation as both a laboratory operation and an inner spiritual metaphor, signifying discipline, crystallization of wisdom, and the grounding of enlightenment into tangible reality.
+            </p>
+        </div>
+    </section>
+
+    <!-- FIXATION -->
+
+    <section class="fixation">
+        <div class="planet-symbol">♊︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Fixation</h2>
+            <h3>Stabilization of Volatile Compounds</h3>
+
+            <p>
+                Fixation is the alchemical process through which a volatile or spiritual substance is made stable, permanent, and resistant to dissipation, symbolizing the transformation of what is fleeting into something enduring. It often represents the grounding of subtle or transcendent principles into material form. This differs from congelation, which refers more narrowly to the cooling, thickening, or coagulation of a substance into a solid state. Whereas congelation emphasizes physical solidification, fixation signifies the deeper loss of volatility and the attainment of lasting stability, both materially and symbolically.
+            </p>
+        </div>
+    </section>
+
+    <!-- SOLUTION -->
+
+    <section class="solution">
+        <div class="planet-symbol">♋︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Solution</h2>
+            <h3>Dissolving Solid Matter Into a Liquid</h3>
+
+            <p>
+                Within alchemical tradition, the process of solution describes the dissolving of a solid substance into liquid, symbolizing the breaking down of fixed forms so transformation can begin. More than a physical act, it represented the softening of rigid structures within both matter and the human spirit. Alchemists believed that through solution, impurities could be separated and hidden essences revealed, allowing the material to move toward purification and rebirth. This stage was often associated with water, dissolution of the ego, and the return to a primordial state from which new creation could emerge.
+            </p>
+        </div>
+    </section>
+
+    <!-- DIGESTION -->
+
+    <section class="digestion">
+        <div class="planet-symbol">♌︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Digestion</h2>
+            <h3>Braking Down the Substances</h3>
+
+            <p>
+                In alchemical thought, digestion is the slow and transformative process by which raw matter is gently heated and broken down so its hidden essence can emerge. Symbolically linked to the warmth of the womb or the earth’s interior, digestion represents purification, maturation, and inner change. Alchemists believed that through steady heat and patience, substances could decay, recombine, and evolve into a more refined state, mirroring the spiritual transformation of the alchemist themselves. This stage was not merely chemical but deeply philosophical, embodying the idea that true perfection arises through time, balance, and controlled dissolution.
+            </p>
+        </div>
+    </section>
+
+    <!-- DISTILLATION -->
+
+    <section class="distillation">
+        <div class="planet-symbol">♍︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Distillation</h2>
+            <h3>Purification and Refinement</h3>
+
+            <p>
+                To alchemists, distillation represented far more than a laboratory technique; it was a sacred act of transformation and purification. By heating a substance into vapor and condensing it back into liquid, they believed the process extracted the pure essence while leaving impurities behind. Beyond its practical use in creating medicines, perfumes, and elixirs, distillation symbolized the refinement of the soul itself. The idea that through repeated transformation, a base or imperfect state could evolve into something more elevated and enlightened.
+            </p>
+        </div>
+    </section>
+
+    <!-- SUBLIMATION -->
+
+    <section class="sublimation">
+        <div class="planet-symbol">♎︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Sublimation</h2>
+            <h3>Elevating and Leaving the Inpurities Behind</h3>
+
+            <p>
+                In alchemical tradition, sublimation is the process of refining matter by heating it so that it rises as vapor and then condenses again in a purer state. Symbolically, alchemists saw this as a parallel to spiritual purification: the “gross” or impure aspects of a substance (and, by extension, the self) are lifted upward and separated from heavier impurities. The repeated cycle of rising and returning was thought to produce a more refined essence, representing clarity, lightness, and the removal of corruption.
+            </p>
+        </div>
+    </section>
+
+    <!-- SEPARATION -->
+
+    <section class="separation">
+        <div class="planet-symbol">♏︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Separation</h2>
+            <h3>Filtering Lie from Truth</h3>
+
+            <p>
+                The process of separation represents a crucial stage in which substances are broken down into their most fundamental components. Symbolically, it reflects the act of discerning truth from illusion, purity from impurity, and essence from matter. Practically in alchemical laboratory work, it could involve techniques like filtration, distillation, or sublimation to isolate different parts of a material mixture. Spiritually, separation is seen as a form of inner refinement, where the alchemist learns to distinguish and release what is unnecessary. This stage prepares the material (and the practitioner) for later transformation and recombination in the alchemical work.
+            </p>
+        </div>
+    </section>
+
+    <!-- CERATION -->
+
+    <section class="ceration">
+        <div class="planet-symbol">♐︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Ceration</h2>
+            <h3>Softening the Product</h3>
+
+            <p>
+                Ceration refers to the gradual softening and liquefaction of a hard substance by the repeated addition of moisture and controlled heat, making it more malleable and receptive to further change. Symbolically, it represented the breaking down of rigidity—both material and spiritual—so that a substance (or the alchemist’s own inner nature) could become pliable enough to undergo deeper refinement. The process was often associated with patience and persistence, as it required steady, sustained conditions rather than sudden force, embodying the idea that true transformation happens through gradual surrender rather than violent change.
+            </p>
+        </div>
+    </section>
+
+    <!-- FERMENTATION -->
+
+    <section class="fermentation">
+        <div class="planet-symbol">♑︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Fermentation</h2>
+            <h3>Generation of Fuel</h3>
+
+            <p>
+                Fermentation is described here as a transformation in how the body generates and distributes energy, shifting the internal “fuel system” toward a more refined or spiritually influenced form. In biological terms it references ATP production in the mitochondria, the basic process cells use to create usable energy for functions like movement, nerve activity, and cellular maintenance, but it frames this as being enhanced or reorganized to support both physical life and expanded consciousness. At its simplest, it portrays fermentation as a reworking of energy production so the body can sustain greater activity and change, accompanied by shifts in digestion, immunity, and overall bodily regulation. The result is presented as increased capacity and adaptation—where the organism is said to function differently at a foundational energetic level while undergoing broader internal change.
+            </p>
+        </div>
+    </section>
+
+    <!-- MULTIPLICATION -->
+
+    <section class="multiplication">
+        <div class="planet-symbol">♒︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Multiplication</h2>
+            <h3>Empowerment of the Substance Beyond It's Limits</h3>
+
+            <p>
+                At its core, multiplication is described as the process of taking a single refined inner state and expanding its effect outward so it influences many rather than one. It frames this as an increase in the strength, reach, and consistency of positive qualities so that what is cultivated internally is expressed repeatedly and can affect others and the surrounding environment. In simpler terms, it treats multiplication as the amplification and spreading of an already developed quality or intention, turning a personal inner condition into something that can be shared broadly and repeatedly without being diminished.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROJECTION -->
+
+    <section class="projection">
+        <div class="planet-symbol">♓︎</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Projection</h2>
+            <h3>Casting the Philosopher's Stone</h3>
+
+            <p>
+                Projection in alchemy is the decisive act of introducing a minute quantity of the perfected substance (typically the Philosopher’s Stone or its powdered form) into a mass of heated, molten base metal such as lead or mercury. The metal is first rendered fluid so it becomes receptive, a kind of undifferentiated field open to reconfiguration. The projection itself is imagined as a simple contact event: the tiny, potent agent touches the larger body, and through that contact its influence spreads through the entire molten mass. What matters is not mixing in a gradual or mechanical sense, but a rapid reordering from within, where the introduced principle is said to “inform” the whole, transforming its nature rather than merely altering its composition.
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>

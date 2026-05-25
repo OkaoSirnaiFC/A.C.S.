@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Planetary Metals - A.C.S.</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#080808;
+            color:#f5f1e8;
+            font-family:'Cormorant Garamond', serif;
+            overflow-x:hidden;
+        }
+
+        section{
+            position:relative;
+            min-height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+            padding:6rem 10%;
+            overflow:hidden;
+        }
+
+        .overlay{
+            position:absolute;
+            inset:0;
+            background:rgba(0,0,0,0.55);
+            z-index:1;
+        }
+
+        .page-content{
+            position:relative;
+            z-index:2;
+            max-width:900px;
+            animation:fadeIn 1.4s ease;
+        }
+
+        .page-content h2{
+            font-family:'Cinzel', serif;
+            font-size:4rem;
+            margin-bottom:1rem;
+            letter-spacing:2px;
+        }
+
+        .page-content h3{
+            font-family:'Cinzel', serif;
+            font-size:1.4rem;
+            margin-bottom:2rem;
+            opacity:0.85;
+        }
+
+        .page-content p{
+            font-size:1.35rem;
+            line-height:1.9;
+            font-weight:300;
+        }
+
+        .planet-symbol{
+            position:absolute;
+            top:20px;
+            right:50px;
+            font-size:7rem;
+            opacity:1;
+            z-index:2;
+        }
+
+        /* GOLD / SUN */
+
+        .gold{
+            background:
+                url('gold.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* SILVER / MOON */
+
+        .silver{
+            background:
+                url('silver.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* IRON / MARS */
+
+        .iron{
+            background:
+                url('metal.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* COPPER / VENUS */
+
+        .copper{
+            background:
+                url('copper.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* TIN / JUPITER */
+
+        .tin{
+            background:
+                url('tin.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* LEAD / SATURN */
+
+        .lead{
+            background:
+                url('lead.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        /* QUICKSILVER */
+
+        .quicksilver{
+            background:
+                url('mercury.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        @keyframes fadeIn{
+            from{
+                opacity:0;
+                transform:translateY(30px);
+            }
+            to{
+                opacity:1;
+                transform:translateY(0);
+            }
+        }
+
+        @media(max-width:768px){
+
+            .page-content h2{
+                font-size:2.7rem;
+            }
+
+            .page-content p{
+                font-size:1.15rem;
+            }
+
+            .planet-symbol{
+                font-size:3.5rem;
+                right:20px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- GOLD -->
+
+    <section class="gold">
+        <div class="planet-symbol">☉</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Gold</h2>
+            <h3>The Metal of the Sun</h3>
+
+            <p>
+                Gold was associated with the Sun in nearly every alchemical and astrological tradition. 
+                Its incorruptibility, brilliance, and rarity made it the supreme symbol of perfection, 
+                immortality, and divine authority. Alchemists believed gold embodied spiritual completion 
+                and the perfected state of matter. In Hermetic philosophy, it represented illumination, 
+                vitality, kingship, and the eternal masculine force radiating through creation.
+            </p>
+        </div>
+    </section>
+
+    <!-- SILVER -->
+
+    <section class="silver">
+        <div class="planet-symbol">☽</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Silver</h2>
+            <h3>The Metal of the Moon</h3>
+
+            <p>
+                Silver belonged to the Moon and symbolized reflection, intuition, dreams, and purity. 
+                Ancient mystics viewed silver as receptive and fluid, mirroring the shifting nature of 
+                lunar cycles and the subconscious mind. In alchemy, silver represented the soul in its 
+                purified form and was often paired with gold as the union of lunar and solar principles.
+            </p>
+        </div>
+    </section>
+
+    <!-- IRON -->
+
+    <section class="iron">
+        <div class="planet-symbol">♂</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Iron</h2>
+            <h3>The Metal of Mars</h3>
+
+            <p>
+                Iron was linked to Mars, the planet of war, force, courage, and bloodshed. 
+                Weapons forged from iron became symbols of conquest and masculine aggression throughout 
+                the ancient world. Alchemists associated iron with raw strength, conflict, endurance, 
+                and the transformative power that emerges through struggle and fire.
+            </p>
+        </div>
+    </section>
+
+    <!-- COPPER -->
+
+    <section class="copper">
+        <div class="planet-symbol">♀</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Copper</h2>
+            <h3>The Metal of Venus</h3>
+
+            <p>
+                Copper was sacred to Venus, embodying beauty, sensuality, harmony, and artistic creation. 
+                Its warm glow and conductive nature made it a symbol of attraction and emotional connection. 
+                In esoteric traditions, copper represented love, fertility, pleasure, and the magnetic 
+                forces that bind both people and the cosmos together.
+            </p>
+        </div>
+    </section>
+
+    <!-- TIN -->
+
+    <section class="tin">
+        <div class="planet-symbol">♃</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Tin</h2>
+            <h3>The Metal of Jupiter</h3>
+
+            <p>
+                Tin corresponded with Jupiter, ruler of expansion, wisdom, prosperity, and divine law. 
+                Alchemists viewed tin as generous and noble, associated with abundance, philosophy, and 
+                spiritual authority. Jupiter’s influence was believed to inspire optimism, justice, and 
+                higher understanding across both earthly and celestial realms.
+            </p>
+        </div>
+    </section>
+
+    <!-- LEAD -->
+
+    <section class="lead">
+        <div class="planet-symbol">♄</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>Lead</h2>
+            <h3>The Metal of Saturn</h3>
+
+            <p>
+                Lead was the metal of Saturn, representing time, mortality, discipline, and decay. 
+                Though heavy and dull, lead held immense symbolic importance in alchemy because it 
+                represented the beginning of transformation. The transmutation of lead into gold became 
+                a metaphor for spiritual awakening, mastery, and the refinement of the human soul.
+            </p>
+        </div>
+    </section>
+
+    <!-- QUICKSILVER -->
+
+    <section class="quicksilver">
+        <div class="planet-symbol">☿</div>
+        <div class="overlay"></div>
+
+        <div class="page-content">
+            <h2>QuicksilverS</h2>
+            <h3>The Metal of Mercury</h3>
+
+            <p>
+                Quicksilver (or mercury), the only liquid metal known to the ancients, was associated with motion, 
+                intellect, language, and transformation. Alchemists considered mercury the bridge 
+                between spirit and matter: volatile, mysterious, and endlessly changing. It symbolized 
+                duality itself: life and death, masculine and feminine, heaven and earth united in one 
+                shifting substance.
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
